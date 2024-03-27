@@ -13,11 +13,11 @@ const songs = [
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
 
     // Feel free to add even more songs
-    { title: "Redbone", artist: "Childish Gambino", genre: "Psychedelic funk"},
-    { title: "Feelings", artist: "Il Divo", genre: "Classical"},
-    { title: "How do I live", artist: "LeAnn Rimes", genre: "Country"},
-    { title: "Fast Car", artist: "Tracy Chapman", genre: "Folk"},
-    { title: "Red Room", artist: "Hiatus Kaiyote", genre: "Alternative/Indie"},
+    { title: "Forgive Our Trespasses", artist: "Nandipha 808", genre: "Amapiano"},
+    { title: "Feelings", artist: "Cyfred, Tman Xpress", genre: "Amapiano"},
+    { title: "Jaiva", artist: "Busta 929", genre: "Amapiano"},
+    { title: "Believer", artist: "Lira", genre: "Afro-Soul"},
+    { title: "Nomvula", artist: "Freshly Ground", genre: "Afro-soul"},
     { title: "Unspoken Word - Intro", artist: "The Soil", genre: "Afro-Soul"},
     { title: "Ebasini", artist: "Tyler ICU", genre: "Amapiano"}
 ];
