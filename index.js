@@ -17,9 +17,13 @@ const songs = [
     { title: "Feelings", artist: "Cyfred, Tman Xpress", genre: "Amapiano"},
     { title: "Jaiva", artist: "Busta 929", genre: "Amapiano"},
     { title: "Believer", artist: "Lira", genre: "Afro-Soul"},
-    { title: "Nomvula", artist: "Freshly Ground", genre: "Afro-soul"},
+    { title: "Nomvula", artist: "Freshly Ground", genre: "Afro-Soul"},
     { title: "Unspoken Word - Intro", artist: "The Soil", genre: "Afro-Soul"},
-    { title: "Ebasini", artist: "Tyler ICU", genre: "Amapiano"}
+    { title: "Ebasini", artist: "Tyler ICU", genre: "Amapiano"},
+    { title: "Feelings", artist: "Zonke", genre: "Afro-Soul"},
+    { title: "When I See You", artist: "Tamia", genre: "R&B"},
+    { title: "Let It Burn", artist: "Usher", genre: "R&B"},
+
 ];
 
 
@@ -43,7 +47,7 @@ function generatePlaylist(guardians, songs) { // Object.entries(): This method i
       // Generate a random playlist of 3 songs
       const playlist = songsOfPreferredGenre
         .sort(() => 0.5 - Math.random()) // This method sorts the elements of an array in place and returns the sorted array.
-        .slice(0, 3); /* Creates a shallow copy of a portion of an array. 
+         /* Creates a shallow copy of a portion of an array. 
         This method returns a shallow copy of a portion of an array into a new array selected from start to end (end not included) where start is inclusive and end is exclusive. 
         Here, it's used to select the first three songs after they've been shuffled. */
 
